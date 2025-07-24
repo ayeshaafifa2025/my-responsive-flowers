@@ -171,6 +171,7 @@ color: #000000;
     margin: 0px 150px;
     display: flex;
     gap: 50px;
+    margin-bottom: 120px;
 }
 .plant-content{
     margin-top: 100px;
@@ -207,4 +208,98 @@ color: #000000;
     margin-top: 10px;
     }
 
+}
+/* card-section */
+
+.card-section{
+    margin: 0px 150px;
+    margin-bottom: 120px;
+}
+
+.card-content{
+    text-align: center;
+    margin-bottom: 80px;
+    
+}
+
+.small-card-1{
+    background-image: url('../assets/deal-bloom.png');
+    width: 320px;
+    height: 150px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+
+    
+    padding: 20px;
+    
+
+}
+.small-card-2{
+    background-image: url('../assets/deal-ana.png');
+    width: 320px;
+    height: 150px;
+    border-radius: 10px;
+    text-align: center;
+    
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    padding: 20px;
+    margin-top: 40px;
+}
+.big-card-1{
+background-image: url('../assets/deal-zabo.png');
+width: 600px;
+height: 320px;
+border-radius: 10px;
+text-align: center;
+font-weight: bold;
+font-size: 2.5rem;
+color: #FFFFFF;
+padding: 50px;
+}
+.cards{
+    display: flex;
+    gap: 80px;
+}
+
+.anchor{
+    font-weight: 600;
+    color: #FFFFFF;
+
+
+}
+.anchor-text1{
+    font-size: 1rem;
+    text-decoration: underline;
+
+}
+.anchor-text2{
+    font-size: 1.75rem;
+    text-decoration: underline;
+}
+/* card section responsive for mobile */
+@media screen and (max-width:576px) {
+    .cards{
+        flex-direction: column;
+        gap: 35px;
+    }
+    .big-card-1{
+        width: 320px;
+    height: 150px;
+    padding: 20px;
+    font-size: 1.25rem;
+
+
+    }
+    .anchor-text2{
+        font-size: 1rem;
+    
+    }
+    .card-section{
+        margin: 0px 90px;
+    }
 }
