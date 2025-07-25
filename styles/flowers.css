@@ -16,6 +16,8 @@
   font-style: normal;
 }
 
+/* body */
+
 
 /* navbar decoration */
 
@@ -87,12 +89,10 @@ color: #E95A08;
     }
     
     .nav-bar{
-        margin-left: 0px;
-        margin-right: 0px;
+        margin: 0 auto;
     }
     .banner{
-        margin-left: 0px;
-        margin-right: 0px;
+        margin: 0 auto;
         flex-direction: column-reverse;
     }
     .banner-title{
@@ -101,6 +101,7 @@ color: #E95A08;
     .banner-description{
         font-size: 0.875rem;
     }
+    
 
 
     
@@ -162,7 +163,7 @@ color: #000000;
 /* responsive for small devices */
 @media screen and (max-width:576px) {
     .plants-section{
-        margin: 0px 8px;
+        margin: 0 auto;
     }
     .pseudo{
         display: none;
@@ -182,11 +183,13 @@ color: #000000;
         font-size: 1rem;
      }
      .plant-img img{
-        width: 215px;
+        width: 100%;
      }
      .btn{
-        padding: 15px 51px;
+        
+        padding: 0 auto;
      }
+     
     
      
 
@@ -228,7 +231,7 @@ color: #000000;
     }
     .plant-department{
         flex-direction: column;
-        margin: 0px 12px;
+        margin: 0 auto;
         gap: 20px;
     }
     .plant-content{
@@ -241,7 +244,7 @@ color: #000000;
         font-size: 0.875rem;
     }
     .pic2 img{
-        width: 440px;
+        width: 100%;
     }
 
 
@@ -326,7 +329,7 @@ padding: 50px;
         gap: 35px;
     }
     .big-card-1{
-        width: 320px;
+        width: 100%;
     height: 150px;
     padding: 20px;
     font-size: 1.25rem;
@@ -335,6 +338,10 @@ padding: 50px;
     }
     .small-card-2{
         border-radius: 0px;
+        width: 100%;
+    }
+    .small-card-1{
+        width: 100%;
     }
 
     .anchor-text2{
@@ -342,7 +349,7 @@ padding: 50px;
     
     }
     .card-section{
-        margin: 0px 90px;
+        margin: 0 auto;
     }
       .our, .plants{
         font-size: 1.5rem;
@@ -353,6 +360,7 @@ padding: 50px;
         .card-section{
             margin: 0px 50px;
         }
+        
 
 
 }
@@ -361,7 +369,7 @@ padding: 50px;
 .form{
     background-image: url('../assets/news-letter-bg.png');
     height: 220px;
-    max-width: 1120px;
+    max-width: 1210px;
     text-align: center;
     padding: 150px;
     margin: 0px 10px;
@@ -394,7 +402,7 @@ padding: 50px;
 @media screen and (max-width:576px) {
     .form{
         margin-top: 50px;
-        max-width: 530px;
+        max-width: 100%;
         height: 150px;
         padding: 50px;
         margin-bottom: 50px;
@@ -411,6 +419,8 @@ padding: 50px;
     .Subscribe{
         padding: 10px 5px;
 }
+
+
 }
 
 /* footer section */
@@ -439,11 +449,12 @@ padding: 50px;
 @media screen and (max-width:576px) {
     .footer{
         flex-direction: column;
-        margin: 0px 10px;
+        margin: 0 auto;
         gap: 20px;
         margin-bottom: 30px;
     }
     .opacity{
         font-size: 1rem;
     }
+    
 }
