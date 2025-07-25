@@ -54,8 +54,7 @@ nav li a{
 
 .banner{
     display: flex;
-    margin-left: 150px;
-    margin-right: 150px;
+   margin: 0px 150px;
     margin-bottom: 120px;
 }
 
@@ -362,4 +361,36 @@ padding: 50px;
     .Subscribe{
         padding: 10px 5px;
 }
+}
+
+/* footer section */
+.footer{
+    margin: 0px 150px;
+    display: flex;
+    gap: 140px;
+    margin-bottom: 50px;
+}
+.gray{
+    color: rgba(107, 114, 128, 1);
+}
+.opacity{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.sponsor img{
+    
+    margin-right: 20px;
+    
+}
+
+/* footer responsive for mobile */
+@media screen and (max-width:576px) {
+    .footer{
+        flex-direction: column;
+        margin: 0px 10px;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
 }
