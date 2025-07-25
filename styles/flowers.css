@@ -295,6 +295,10 @@ padding: 50px;
 
 
     }
+    .small-card-2{
+        border-radius: 0px;
+    }
+
     .anchor-text2{
         font-size: 1rem;
     
@@ -302,4 +306,60 @@ padding: 50px;
     .card-section{
         margin: 0px 90px;
     }
+}
+
+/* form section */
+.form{
+    background-image: url('../assets/news-letter-bg.png');
+    height: 220px;
+    max-width: 1120px;
+    text-align: center;
+    padding: 150px;
+    margin: 0px 10px;
+    margin-bottom: 120px;
+}
+.label{
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 3.125rem;
+}
+.placeholder{
+    color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    padding-right: 200px;
+    border: none;
+    font-size: 1rem;
+}
+.Subscribe{
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+}
+/* form section responsive for mobile */
+@media screen and (max-width:576px) {
+    .form{
+        margin-top: 50px;
+        max-width: 530px;
+        height: 150px;
+        padding: 50px;
+        margin-bottom: 50px;
+    }
+    .label{
+        font-weight: bold;
+        font-size: 1.25rem;
+    }
+    .placeholder{
+        padding: 10px 5px;
+        padding-right: none;
+
+    }
+    .Subscribe{
+        padding: 10px 5px;
+}
 }
