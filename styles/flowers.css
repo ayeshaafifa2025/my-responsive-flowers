@@ -16,7 +16,10 @@
   font-style: normal;
 }
 
+
 /* navbar decoration */
+
+
 nav li{
     list-style: none;
 }
@@ -63,13 +66,13 @@ nav li a{
     font-size: 4.0625rem;
     
 }
-
-
 .banner-description{
-    color: rgba(0, 0, 0, 0.5);
     font-size: 1.375rem;
-    
+    color: rgba(0, 0, 0, 0.5);
 }
+
+
+
 .part1{
 color: #000000;
 }
@@ -91,6 +94,12 @@ color: #E95A08;
         margin-left: 0px;
         margin-right: 0px;
         flex-direction: column-reverse;
+    }
+    .banner-title{
+        font-size: 1.5rem;
+    }
+    .banner-description{
+        font-size: 0.875rem;
     }
 
 
@@ -163,6 +172,25 @@ color: #000000;
         grid-template-columns: repeat(2, 1fr);
         gap: 5px;
     }
+    .our, .plants{
+        font-size: 1.5rem;
+    }
+    .our-plants-description{
+        font-size: 0.875rem;
+    }
+     .flower-name, .price{
+        font-size: 1rem;
+     }
+     .plant-img img{
+        width: 215px;
+     }
+     .btn{
+        padding: 15px 51px;
+     }
+    
+     
+
+
 }
 
 /* plant-department */
@@ -206,6 +234,17 @@ color: #000000;
     .plant-content{
     margin-top: 10px;
     }
+    .head-line{
+        font-size: 1.5rem;
+    }
+    .paragraph{
+        font-size: 0.875rem;
+    }
+    .pic2 img{
+        width: 440px;
+    }
+
+
 
 }
 /* card-section */
@@ -305,6 +344,17 @@ padding: 50px;
     .card-section{
         margin: 0px 90px;
     }
+      .our, .plants{
+        font-size: 1.5rem;
+    }
+        .paragraph{
+            font-size: 0.875rem;
+        }
+        .card-section{
+            margin: 0px 50px;
+        }
+
+
 }
 
 /* form section */
@@ -392,5 +442,8 @@ padding: 50px;
         margin: 0px 10px;
         gap: 20px;
         margin-bottom: 30px;
+    }
+    .opacity{
+        font-size: 1rem;
     }
 }
